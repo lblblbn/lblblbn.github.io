@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>LING Foundation</title>
-<style>
 
-#hi {
-    height: 1500px;
-    width: 2000px;
+<style>
+#hey {
+    height: 1512px;
+    width: 2016px;
 }
 
-#how {
+#are {
 color: rgb(220, 230, 230);
 position: fixed;
 top: 30%;
@@ -19,7 +20,7 @@ font: 3em "Open Sans", sans-serif;
 background-color:rgba(88, 88, 100, 0.5);
 }
 
-#are {
+#you {
 color: rgb(230, 230, 220);
 position: fixed;
 top: 40%;
@@ -28,7 +29,7 @@ font: 3em "Open Sans", sans-serif;
 background-color:rgba(100, 88, 88, 0.5);
 }
 
-#you {
+#ready {
 color: orange;
 position: fixed;
 top: 70%;
@@ -37,24 +38,48 @@ font: 8em "KaiTi", "STKaiti", "SimHei";
 background-color:rgba(50, 50, 50, 0.5);
 }
 
-#doing {
+.to:hover {
+animation-name: mist;
+animation-duration: 5s;
+}
+
+.go {
 color: orange;
 background-color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+color: rgb(220, 230, 230);
+text-decoration: none;
+}
+
+.go:hover {
+animation-name: burn;
+animation-duration: 5s;
+}
+
+@keyframes mist {
+from {color: white;}
+to {color: #0067A5;}
+}
+
+@keyframes burn {
+from {color: orange;}
+to {color: red;}
 }
 
 </style>
 </head>
 
 <body>
+<img id="hey" src="flight.jpg"></img>
 
-<img id="hi" src="flight.jpg"></img>
+<div id="are">do you <a class="to" href="https://en.wikipedia.org/wiki/Manifest_destiny">believe</a></div>
 
-<div id="how">do you believe</div>
+<div id="you">you can <a class="go" href="https://en.wikipedia.org/wiki/Divine_right_of_kings">fly?</a></div>
 
-<div id="are">you can <span id="doing">fly?</span></div>
-
-<div id="you">凌</div>
-
+<div id="ready"><a class="go" href="https://en.wikipedia.org/wiki/Mandate_of_Heaven">凌</a></div>
 </body>
 
 </html>
+<!-- hf gl ;) -->

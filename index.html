@@ -90,7 +90,7 @@ to {color: red;}
 </head>
 
 <body>
-<img id="hey" src="flight.jpg" alt="takeoff" />
+<a id="momentum" href="flight.mov"><img id="hey" src="flight.jpg" alt="takeoff" /></a>
 
 <div id="are">do you <a class="to" href="https://en.wikipedia.org/wiki/Manifest_destiny">believe</a></div>
 
@@ -98,7 +98,7 @@ to {color: red;}
 
 <div id="ready"><a class="go" href="https://en.wikipedia.org/wiki/Mandate_of_Heaven">凌<br />&nbsp;</a></div>
 
-<div class="to" id="soar">"the End of Poverty"</div>
+<div class="go" id="soar">"the End of Poverty"</div>
 </body>
 
 </html>
@@ -119,8 +119,8 @@ So here's the plan:
         "LING Technology Group" - R&D Org: Step 0 - building giant mechs in the cornfields!
         "LING Heavy Industries" - Industry Org: Heavy machinery + equipment, global shipping
         "LING Star eXploration" - Space Org: To the stars!
-        "LING Institute of Strategy" - {Aegis, Mythril, Sophia} Dearest Princeton, my parting gift to you (as I am reluctantly grateful for the Hell that you put me through... dei sub numine viget, indeed...)
-            -> Main - Purdue/Kokomo/Indianapolis
+        "LING Institute of Strategy" - {Aegis, Mythril, Sophia} Dearest Princeton, my parting gift to you (as I am reluctantly grateful for the Hell that you put me through... dei sub numine viget, indeed.)
+            -> Core - Purdue/Kokomo/Indianapolis
             -> East - Princeton
             -> West - San Diego/LA, SF, Seattle
     }
@@ -129,8 +129,8 @@ So here's the plan:
 Got it?
 凌朝 = LF { LC, LRC, LR, LDA, WLE, LWS, LTG, LHI, LSX, LIS }
 
-"There is nothing like a dream to create the future." -Victor Hugo
-so hf gl, let's win-
+"There is nothing like a dream to create the future." - Victor Hugo, inscription @Starbucks Reserve
+so hf gl, let's win.
 -波/bo
 
 
@@ -138,7 +138,7 @@ so hf gl, let's win-
 //my Armada ;)
 
 McLaren = "Ling 0"
-Prototype_Frame = "Wing 00"
+Prototype_Frame = "Ling 00"
 StarX_Fleet = {
     Core_Tier {
         "H.I.S. Nanning",
@@ -177,10 +177,14 @@ StarX_Fleet = {
     }
 }
 
-//P.P.S.
-mission = BASE_DEFENSE;
-time_limit = 2030; //A.D.
-time_start = NOW;
+// P.P.S.
+// Start the game already! -波
 
-world.run();
+Quest.set("Holy Grail");
+Mission.add("Defense of the Ancients");
+Mission.add("Age of Empires");
+Mission.add("Renaissance");
+Time.setCheckPoint("2030 A.D.");
+
+World.run();
  -->

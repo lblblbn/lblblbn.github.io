@@ -2,7 +2,7 @@
 "The End of Poverty"
 
 ## "Fountain"
-### Implementating a Free-to-Play Model in Human Society
+### Implementating a Free-to-Play Model of Human Society
 We will be offering a complimentary Basic Tier of core societal resources, at strategically placed "Fountains" across geosocial space:
 * Water
 * Food

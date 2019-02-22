@@ -12,79 +12,74 @@
 }
 
 #are {
-color: rgb(220, 230, 230);
-position: fixed;
-top: 30%;
-right: 35%;
-font: 3em "Open Sans", sans-serif;
-background-color:rgba(88, 88, 100, 0.5);
+    color: rgb(220, 230, 230);
+    position: fixed;
+    top: 30%;
+    right: 35%;
+    font-size: 3em;
+    background-color:rgba(88, 88, 100, 0.5);
 }
 
 #you {
-color: rgb(230, 230, 220);
-position: fixed;
-top: 40%;
-right: 25%;
-font: 3em "Open Sans", sans-serif;
-background-color:rgba(100, 88, 88, 0.5);
+    color: rgb(230, 230, 220);
+    position: fixed;
+    top: 40%;
+    right: 25%;
+    font-size: 3em;
+    background-color:rgba(100, 88, 88, 0.5);
 }
 
 #ready {
-color: orange;
-position: fixed;
-top: 65%;
-right: 5%;
-font: 8em "KaiTi", "STKaiti", "SimHei";
-background-color:rgba(50, 50, 50, 0.5);
+    color: orange;
+    position: fixed;
+    top: 65%;
+    right: 5%;
+    font: 8em "KaiTi", "STKaiti", "SimHei";
+    background-color:rgba(50, 50, 50, 0.5);
+}
+
+.S {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .to:hover {
-animation-name: mist;
-animation-duration: 5s;
+    animation-name: mist;
+    animation-duration: 5s;
 }
 
 .go {
-color: orange;
-background-color: rgba(0, 0, 0, 0.5);
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 a {
-color: rgb(220, 230, 230);
-text-decoration: none;
+    color: rgb(220, 230, 230);
+    text-decoration: none;
 }
 
 .go:hover {
-animation-name: firaga;
-animation-duration: 7s;
-}
-
-#yet {
-color: rgb(220, 230, 230);
-position: absolute;
-top: 830px;
-right: 20%;
-text-align: right;
-font: 2.5em "KaiTi", "STKaiti", "SimHei";
+    animation-name: firaga;
+    animation-duration: 7s;
 }
 
 #soar {
-color: white;
-position: fixed;
-top: 86%;
-right: 1.5%;
-font: 2em "KaiTi", "STKaiti", "SimHei";
-background-color:rgba(50, 50, 50, 0.5);
-z-index: 1;
+    color: white;
+    position: fixed;
+    top: 86%;
+    right: 1.5%;
+    font-size: 2em;
+    background-color:rgba(50, 50, 50, 0.5);
+    z-index: 1;
 }
 
 @keyframes mist {
-from {color: white;}
-to {color: #0067A5;}
+    from {color: white;}
+    to {color: #0067A5;}
 }
 
 @keyframes firaga {
-from {color: #ffc133;}
-to {color: red;}
+    from {color: #ffc133;}
+    to {color: red;}
 }
 </style>
 </head>
@@ -92,13 +87,13 @@ to {color: red;}
 <body>
 <a id="momentum" href="flight.mov"><img id="hey" src="flight.jpg" alt="takeoff" /></a>
 
-<div id="are"><a class="to" href="https://www.ling.foundation/concierge">do</a> you <a class="to" href="https://en.wikipedia.org/wiki/Manifest_destiny">believe</a></div>
+<div id="are" class="S"><a class="to" href="https://www.ling.foundation/concierge">do</a> you <a class="to" href="https://en.wikipedia.org/wiki/Manifest_destiny">believe</a></div>
 
-<div id="you">you <a class="to" href="https://www.ling.institute">can</a> <a class="go" href="https://en.wikipedia.org/wiki/Divine_right_of_kings">fly?</a></div>
+<div id="you" class="S">you <a class="to" href="https://www.ling.institute">can</a> <a class="go" href="https://en.wikipedia.org/wiki/Divine_right_of_kings">fly?</a></div>
 
 <div id="ready"><a class="go" href="https://en.wikipedia.org/wiki/Mandate_of_Heaven">凌<br />&nbsp;<br />&nbsp;</a></div>
 
-<div class="go" id="soar">"the <a class="to" href="https://www.ling.capital">End</a> of Poverty"</div>
+<div id="soar" class="S go">"the <a class="to" href="https://www.ling.capital">End</a> of Poverty"</div>
 </body>
 
 </html>

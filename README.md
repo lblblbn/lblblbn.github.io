@@ -3,7 +3,7 @@
 
 ## "Fountain"
 ### Implementating a Free-to-Play Model in Human Society
-We will be offering a complimentary Base Tier of core societal resources, at strategically placed "Fountains" across geosocial space:
+We will be offering a complimentary Basic Tier of core societal resources, at strategically placed "Fountains" across geosocial space:
 * Water
 * Food
 * Shelter

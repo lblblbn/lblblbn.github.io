@@ -1,2 +1,2 @@
-# Ling Foundation
+# LING Foundation
 The End of Poverty

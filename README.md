@@ -1,1 +1,2 @@
-# lblblbn.github.io
+# Ling Foundation
+The End of Poverty

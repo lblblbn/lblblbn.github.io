@@ -1,5 +1,5 @@
 # Ling Foundation | 凌朝
-"The End of Poverty"
+"Balance"
 
 ## "Fountain"
 ### Implementating a Free-to-Play Model for Human Society
